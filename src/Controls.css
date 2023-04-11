@@ -1,0 +1,32 @@
+.controls{
+    width: 500px;
+    height: 45px;
+    border: 1px solid;
+    margin-top: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.niveau{
+    background-color: transparent;
+    padding: 5px;
+    outline: none;
+    border-radius: 5px;
+    font-family: cursive;
+    cursor: pointer;
+    color: white;
+}
+.niveau option{
+    color: black;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    font-family: cursive;
+}
+#reboot{
+    padding: 5px;
+    outline: none;
+    border-radius: 5px;
+    font-family: cursive;
+    cursor: pointer;
+}
